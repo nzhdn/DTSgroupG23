@@ -1,0 +1,104 @@
+@media all and (max-width: 1000px) {
+  .top-wrapper h1{
+      font-size: 70px;
+      letter-spacing: 3px;
+  }
+  input,textarea{
+	  width:40%;
+  }
+  .profile {
+    float: left;
+    width: 50%;
+  }
+  .profile-text {
+    font-size: 13px;
+  }
+}
+
+@media all and (max-width: 670px) {
+  .header-right {
+    display: none;
+  }
+
+  .bar-icon {
+    display: inherit;
+    margin: 5px 15px;
+  }
+ .bar-menu {
+  background-color: #1c9cad;
+  line-height: 40px;
+  color: white;
+  display:inline-block;
+  text-align: center;
+ 
+ }
+ ul {
+    display: inline;
+    margin: 0;
+    padding: 0;
+  }
+  ul li {
+    display: inline-block;
+  }
+  ul li:hover {
+    background-color: rgba(62, 71, 73, 0.9);
+  }
+  ul li:hover ul {
+    display: block;
+  }
+  ul li ul {
+    position: absolute;
+    width: 85px;
+    display: none;
+  }
+  ul li ul li { 
+    background: rgba(62, 71, 73, 0.9);
+    display: block; 
+  }
+  ul li ul li a {
+    display:block !important;
+  } 
+  ul li ul li:hover {
+    background: rgb(158, 154, 154);
+  }
+
+
+
+  .top-wrapper h1{
+      font-size: 35px;
+      letter-spacing: 2px;
+  }
+  .top-wrapper h3{
+      font-size: 25px;
+      letter-spacing: 2px;
+  }
+  input,textarea{
+	  width:100%;
+	}
+
+  .btn{
+	  width:100%;
+  }
+  .profile{
+    float: left;
+    width: 100%;
+	}
+  .profile-text {
+    font-size: 11px;
+	}
+
+  .footer-social {
+      float: right;
+      padding: 2px;
+  }
+  ul, li {
+      text-decoration: none;
+      padding: 1px;
+      list-style-type: none;
+      display: block;
+  }
+  .footer-social li {
+      padding-right: 1px;
+      display: inline-block;
+  }
+}
